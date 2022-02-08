@@ -53,6 +53,20 @@ dependencies {
     implementation(AndroidX.appCompatActivity)
     implementation(AndroidX.lifecycleRuntimeKtx)
     implementation(AndroidX.androidxAnnotation)
+
+    //Compose
+    implementation(Compose.ui)
+    implementation(Compose.material)
+    implementation(Compose.preview)
+    implementation(Compose.activity)
+    debugImplementation(Compose.uiTooling)
+    implementation(Compose.uiUtils)
+    implementation(Compose.runtime)
+    implementation(Compose.runtimeLiveData)
+    implementation(Compose.foundation)
+    implementation(Compose.compiler)
+   
+
 }
 
 afterEvaluate {
@@ -74,7 +88,7 @@ afterEvaluate {
                 artifactId = "ayan-core-util"
 
                 // Version Library Name (Example : "1.0.0")
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
