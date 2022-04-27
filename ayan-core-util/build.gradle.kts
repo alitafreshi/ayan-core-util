@@ -65,7 +65,7 @@ dependencies {
     implementation(Compose.runtimeLiveData)
     implementation(Compose.foundation)
     implementation(Compose.compiler)
-   
+
 
 }
 
@@ -88,7 +88,7 @@ afterEvaluate {
                 artifactId = "ayan-core-util"
 
                 // Version Library Name (Example : "1.0.0")
-                version = "0.0.7"
+                version = "0.0.8"
             }
         }
     }
