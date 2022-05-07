@@ -89,7 +89,7 @@ afterEvaluate {
                 artifactId = "ayan-core-util"
 
                 // Version Library Name (Example : "1.0.0")
-                version = "0.0.10"
+                version = "0.0.11"
             }
         }
     }
