@@ -67,6 +67,7 @@ dependencies {
     implementation(Compose.compiler)
 
     implementation(ayan.Core.ayanCore)
+    implementation(Javax.javaInject)
 
 }
 
@@ -89,7 +90,7 @@ afterEvaluate {
                 artifactId = "ayan-core-util"
 
                 // Version Library Name (Example : "1.0.0")
-                version = "0.0.11"
+                version = "0.0.12"
             }
         }
     }
